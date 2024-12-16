@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  outline: none;
+}
+
+body {
+  background: rgb(205, 205, 205);
+  background: radial-gradient(
+    circle,
+    rgba(205, 205, 205, 0) 0%,
+    rgba(175, 212, 255, 1) 100%
+  );
+ 
+ 
+}
+
+.logo {
+  width: 300px;
+  margin: 30px auto;
+  display: flex;
+}
+
+main {
+  width: 400px;
+  background: white;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+label {
+  color: rgb(64, 64, 64);
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+select,input {
+  background: white;
+  height: 50px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #555555;
+  cursor: pointer;
+}
+
+button {
+
+  height: 48px;
+  border-radius: 5px;
+  background-color: rgb(124, 124, 239);
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  cursor: pointer;
+  
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+section{
+    border: 1px solid #772FD3;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+ 
+}
+
+.moeda {
+  width: 50px;
+  height: 50px;
+  
+}
+
+.arrow{
+    display: flex;
+    margin: 30px auto;
+}
+
+.name-coin{
+    font-size: 16px;
+    font-weight: 500;
+    color: #777777;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 700;
+    color: #555555;
+}
