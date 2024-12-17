@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -28,23 +29,23 @@
 
         <label for="">
             Converter para
-            <select name="" id="">
-                <option value="">US$ Dólar Americano</option>
-                <option value="">€ Euro</option>
+            <select class="select-coin">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
             </select>
         </label>
 
         <label for=""> Valor
-            <input placeholder="R$ 10.000,00">
+            <input class="input-currency" placeholder="R$ 10.000,00">
         </label>
 
-        <button>Converter</button>
+        <button class="convert-button">Converter</button>
 
         <section>
             <div>
                 <img class="moeda" src="./assets/real.png" alt="moeda-logo-real">
                 <p class="name-coin">Real</p>
-                <p class="price">R$ 0,00</p>
+                <p class="valor-real">R$ 0,00</p>
             </div>
 
             <img class="arrow" src="./assets/seta.png" alt="seta">
@@ -52,7 +53,7 @@
             <div>
                 <img src="./assets/dolar.png" alt="moeda-logo-real">
                 <p class="name-coin">Dólar</p>
-                <p class="price">US$ 0.00</p>
+                <p class="valor-convertido">US$ 0.00</p>
             </div>
 
         </section>
@@ -62,5 +63,6 @@
 
 
 </body>
+<script src="scripts.js"></script>
 
 </html>

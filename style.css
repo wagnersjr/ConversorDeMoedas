@@ -106,7 +106,7 @@ div {
     color: #777777;
 }
 
-.price{
+.valor-real, .valor-convertido {
     font-size: 20px;
     font-weight: 700;
     color: #555555;
